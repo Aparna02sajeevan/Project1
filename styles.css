@@ -2,6 +2,96 @@ body{
   text-align:center;
   width:1340px;
 }
+@media (max-width:700px) {
+    body{
+        width: 300px;
+        
+    }
+    .mala{
+        text-align: center;
+        width:250px;
+        height: 50px;
+    }
+    .cls1{
+        flex-direction: column;
+        flex-shrink:inherit ;
+        width:100px;
+        height: 20px;
+    }
+    .top-container{
+        position: relative;
+    }
+    .h3{
+        flex-direction: column;
+        flex-shrink:inherit ;
+        width:100px;
+        height: 10px;
+    }
+    .dp{
+        flex-direction: column;
+        margin-top: 250px;
+        left:80px;
+        
+    }
+    .logo{
+        flex-direction: column;
+        margin-top: 300px;
+        width:50px;
+        height: 500px;
+        display: grid;
+    }
+    
+    .logsize{
+        flex-direction: column;
+        flex-shrink: inherit;
+        
+       
+       
+    }
+    .middle-container{
+        flex-direction: column;
+        width:300px;
+        height:600px;
+        right:600px;
+        
+    }
+    .touch{
+        margin-top:500px ;
+        left:650px;
+    }
+    .bottom-container{
+        padding-top: 400px;
+    }
+    
+    .container{
+        
+        display: grid;
+        flex-direction: column;
+       
+       
+    }
+    .last{
+        flex-direction: column;
+        display: grid;
+        margin-top: 1200px;
+        
+    }
+    .word2{
+        margin-left: 50px;
+        flex-direction: column;
+        display: grid;
+    }
+    .end{
+        height: 1500px; 
+    }
+    .forms{
+
+    }
+   
+    
+
+    
+}
 span{
     color:#07F;
 }
@@ -189,6 +279,7 @@ span{
 .last{
     text-align: center;
     width:1200px;
+    margin-left: 70px;
 }
 .per1{
     padding:20px;
@@ -215,7 +306,7 @@ span{
 }
 .end{
     background-color: rgb(9, 73, 191);
-    width:1240px;
+    width:1270px;
     height:900px;
     padding: 30px;
     color: white;
